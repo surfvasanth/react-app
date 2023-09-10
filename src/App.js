@@ -1,9 +1,10 @@
-import "./App.css";
+import "./styles.css";
 
-export default App () {
+const App = () => {
   return (
     <div className="App">
       <h1>React app</h1>
      </div>
   );
 }
+export default App;
