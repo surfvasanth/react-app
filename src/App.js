@@ -1,17 +1,18 @@
 import "./styles.css";
 
-const App = () => {
-  const name=null;
-  
+const Person = () => {
+  return (
+    <><h1>First Name : Raj</h1>
+    <h1>Last Name : Kumar</h1>
+    <h1>Age : 35</h1>
+    </>
+  )
+}
+const App = () => { 
   return (
     <div className="App">
-      <h1>React </h1>
-      {name ?
-      (<>test</>):
-      (<><h1>No</h1>
-      <h1>There is no name</h1>
-      </>)}
-     </div>
+      <Person />
+           </div>
   );
 }
 export default App;
