@@ -1,6 +1,6 @@
-import "./styles.css";
+import "./App.css";
 
-const App = () => {
+export default App () {
   return (
     <div className="App">
       <h1>React app</h1>
