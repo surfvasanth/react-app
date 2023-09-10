@@ -1,7 +1,7 @@
 import "./styles.css";
 
 const App = () => {
-  const name='vasanth';
+  const name=null;
   
   return (
     <div className="App">
