@@ -1,18 +1,21 @@
 import "./styles.css";
 
-const Person = () => {
+const Person = (props) => {
   return (
-    <><h1>First Name : Raj</h1>
-    <h1>Last Name : Kumar</h1>
-    <h1>Age : 35</h1>
+    <>
+    <h1>FirstName : {props.FirstName}</h1>
+    <h1>LastName : {props.LastName}</h1>
+    <h1>Age : {props.Age}</h1>
     </>
   )
 }
 const App = () => { 
   return (
     <div className="App">
+      <Person FirstName='Kannan' LastName='Das' Age='26'/>
       <Person />
-           </div>
+      <Person />
+    </div>
   );
 }
 export default App;
